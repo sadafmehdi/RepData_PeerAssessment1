@@ -1,6 +1,7 @@
 ---
 title: "Reproducible Research Assignment 1"
 output: html_document
+keep_md:True
 ---
 
 ```{r setup, include=FALSE}
@@ -11,6 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library(dplyr)
 library(ggplot2)
+summary(cars)
 ```
 
 ##Loading and preprocessing the data
